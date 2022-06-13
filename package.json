@@ -1,0 +1,19 @@
+{
+  "name": "assistente-wp",
+  "version": "1.0.0",
+  "description": "Personal assistant",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Gabriel Diogo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "twilio": "^3.77.2"
+  },
+  "type": "module"
+}
